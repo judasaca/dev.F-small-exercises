@@ -1,0 +1,25 @@
+div {
+  margin-bottom: 10px;
+}
+.azul {
+  background: rgb(123, 123, 255);
+}
+.chico {
+  height: 30px;
+}
+.grande {
+  height: 90px;
+}
+.container {
+  display: flex;
+  margin-bottom: 0;
+}
+.mediano {
+  height: 60px;
+}
+.container > div {
+  flex: 1;
+}
+.margin-derecho {
+  margin-right: 10px;
+}
